@@ -17,7 +17,7 @@ def extract_slots(text: str) -> Dict[str, Union[str, float, None]]:
     for pattern in education_patterns:
         m = re.search(pattern, t)
         if m:
-            education_query = m.group(1).strip()  # Extract the term (e.g., "RAM", "storage")
+            education_query = m.group(1).strip()  
             break
 
     use_case = None
