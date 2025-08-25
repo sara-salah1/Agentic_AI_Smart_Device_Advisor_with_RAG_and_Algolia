@@ -1,4 +1,7 @@
 # Agentic_AI_Smart_Device_Advisor_with_RAG_and_Algolia
+## Objective:
+Build a Python-based conversational AI agent that recommends suitable electronic devices
+based on user needs. The system should use RAG and Algolia as the search backend.
 
 ### 1) Python env
 ```bash
